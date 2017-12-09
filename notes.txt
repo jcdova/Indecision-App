@@ -1,0 +1,23 @@
+//this is the command for changing the code in to babel sintax in another files
+
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+babel src/playground/counter-example.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+//Conditional rendering - ternary operator
+ 
+<h1>{user.name ? user.name : 'Anonymous'}</h1> //to do one or two things
+
+//logical and(&&) operator = if you want to do on thing or else do nothing at all
+
+
+//this is for starting up each session
+
+cd Desktop/react-course-projects/indecision-app/
+
+
+//bind() - still confusing need to research
+
+yarn run build // this creates a bundle file
+
+yarn run dev-server // this renders in localhost8080
