@@ -65,7 +65,7 @@ export default class IndecisionApp extends React.Component {
     };
     
     render() {
-        const subtitle = 'When you just cannot make up our mind';
+        const subtitle = 'When you just cannot make up your mind';
         return (
             <div>
                 <Header subtitle={subtitle} />
